@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms & Inputs</title>
+    <link rel="shortcut icon" href="./../Images & Co/gggs.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/Forms.css" />
+  </head>
+  <body>
+    
+    <div class="center" style="margin-left: 23%;">
+        <h1 style="margin-left: 15%;">Forms and Input attributes</h1>
+      <fieldset>
+        <legend>Simple Form</legend>
+        <form><br>
+          <label for="firstname"> First Name:</label>
+          <input type="text" id="name" name="firstname" placeholder="John" /><br>
+          <label for="Initial"> Last Name:</label>
+          <input type="text" id="Initial" name="Initial" /><br>
+          <input type="submit" value="Submit" /><br>
+        </form>
+      </fieldset><br>
+      <fieldset>
+        <legend>Email & Mobile with placeholder</legend>
+        <form><br>
+          <label for="gmail"> Email ID:</label>
+          <input type="email" id="gmail" name="gmail" placeholder="john@123.cc" /><br>
+          <label for="mobile"> Mobile No:</label>
+          <input type="tel" id="mobile" name="mobile" placeholder="0123456789" value="+91" pattern="[0-9,+]{10,13}" /><br>
+          <input type="submit" value="Click to Submit" />
+        </form>
+      </fieldset><br>
+      <fieldset>
+        <legend>Entering password, Number & URL</legend>
+        <form action=""><br>
+            <label for="url">Enter URL</label>
+            <input type="url" name="url" id="url"><br><br>
+            <label for="number">Enter Number</label>
+            <input type="number" name="number" id="number"><br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass">
+            <input type="submit" value="Submit" id="submit1">
+        </form>
+      </fieldset><br>
+      <fieldset>
+        <legend>Date, Time, Password, Button, color, file, number, raadio, range, reset, url, checkbox etc...</legend>
+        <form action="">
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date"><br><br>
+            <label for="time">Time</label>
+            <input type="time" name="time" id="time"><br><br>
+            <label for="bttn">Button</label>
+            <input type="button" value="Button" id="bttn"><br><br>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color" ><br><br>
+            <label for="file">Insert File</label>
+            <input type="file" name="file" id="file"><br><br>
+            <label for="radio">Radio</label>
+            <input type="radio" name="radio" id="radio"><br><br>
+            <label for="css">Radio1</label>
+            <input type="radio" name="radio" id="css"><br><br>
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+      </fieldset><br>
+
+      
+    </div>
+  </body>
+</html>
