@@ -1,0 +1,5 @@
+td{
+    background: linear-gradient(to left, red,black,blue);
+    height: 50px;
+    width: 50px;
+}
